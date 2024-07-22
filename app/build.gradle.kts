@@ -47,5 +47,6 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
 
     implementation ("androidx.recyclerview:recyclerview:1.3.2")
-    implementation ("com.squareup.retrofit2:retrofit:2.11.0")
+    implementation ("com.squareup.retrofit2:retrofit:2.11.0") // retrofit 의존성 추가
+    implementation("com.squareup.retrofit2:converter-scalars:2.11.0") // retrofit scalar converter 의존성 추가
 }
